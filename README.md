@@ -1,16 +1,28 @@
-## Hi there 👋
+##  你好👋，我是段旷卓
 
-<!--
-**Duan-12345/Duan-12345** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 👨‍💻 关于我
+计算机科学与技术专业大二学生。
+大学前期有过时间浪费的情况，目前正在努力追赶，注重工程实践、代码积累与团队协作，希望把课本理论转化为实实在在的项目能力。
+做事踏实，遇到问题愿意主动查阅资料，独立排查调试bug，不轻易放弃。习惯通过写博客复盘学习过程，记录踩坑经历与学习收获。
 
-Here are some ideas to get you started:
+## ✨个人优势
+- 自学能力较强，遇到陌生技术愿意主动查阅文档，动手实践摸索。
+- 对待编程有耐心，不怕反复调试试错，愿意花时间定位并解决问题。
+- 重视学习输出，坚持撰写技术博客，沉淀自己的学习思考。
+- 学习态度认真，愿意投入额外时间补齐自身技术短板。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠 技术栈
+- 编程语言：C、Python
+- 工具：Git、GitHub、Markdown
+- 学习方向：软件工程、程序开发、小型项目实战、团队协同开发
+
+## 📚 当前状态
+- 🌱 学习现代软件工程，规范编码习惯与软件开发流程
+- 💻 积累个人项目代码量，练习规范化开发
+- 📝 坚持技术博客记录，巩固课程学习收获
+- 🤝 锻炼团队协作能力，适应小组项目开发模式
+
+## 🎯 未来目标
+努力成长为一名合格的软件开发工程师，掌握标准软件开发流程，积累项目实战经验，持续提升代码质量、逻辑思维与工程素养。
+
+---
