@@ -1,0 +1,6 @@
+﻿  plagiarism.c
+c:\users\lenovo\source\repos\project2\project2\plagiarism.c(140): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\lenovo\source\repos\project2\project2\plagiarism.c(157): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  test.c
+  正在生成代码...
+  Project2.vcxproj -> C:\Users\lenovo\source\repos\Project2\x64\Debug\Project2.exe

@@ -1,0 +1,21 @@
+[2026-09-11 12:49:34] [info] Start Program:
+Path:"C:\\Users\\lenovo\\source\\repos\\Project2\\x64\\Debug\\Project2.exe"
+Arguments:D:\test\orig.txt D:\test\copy.txt D:\test\result.txt 
+Working directory: "C:\\Users\\lenovo\\source\\repos\\Project2\\Project2\\"
+Modules: Selected: C:\Users\lenovo\source\repos\Project2\x64\Debug\Project2.exe Excluded: 
+Sources: Selected: C:\Users\lenovo\source\repos\Project2\Project2 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\lenovo\AppData\Local\Temp\kw2fxkxq.qfw 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2026-09-11 12:49:35] [info] Module: C:\Users\lenovo\source\repos\Project2\x64\Debug\Project2.exe is selected because it matches selected pattern: C:\Users\lenovo\source\repos\Project2\x64\Debug\Project2.exe
+[2026-09-11 12:49:35] [info] ----------------------------------------------------
+[2026-09-11 12:49:35] [info] Coverage binary generated in file: C:\Users\lenovo\AppData\Local\Temp\kw2fxkxq.qfw
+[2026-09-11 12:49:35] [info] ----------------------------------------------------
