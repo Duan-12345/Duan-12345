@@ -35,6 +35,20 @@ python run.py --demo --no-router   # 关掉路由，全交给大模型（token �
 python -m unittest discover -s tests -v   # 20 项离线测试
 ```
 
+## 单文件版：campus_agent.py
+
+不想看目录结构、只想拷一个文件走？用同目录下的 `campus_agent.py`（1083 行，把 `agent/` 与 `mcp_server/` 全部合并）：
+
+```bash
+python campus_agent.py                # 多轮对话
+python campus_agent.py --demo         # 8 轮演示
+python campus_agent.py --once "算一下 (128+72)*3/4"
+python campus_agent.py --selftest     # 内置 28 项自测，不联网、不耗 token
+python campus_agent.py --mcp-server   # 以 MCP 服务器模式运行（给客户端拉起用）
+```
+
+和分模块版功能完全一致：MCP 服务器仍是**独立子进程**（客户端用 `--mcp-server` 把同一个文件再拉起一次），两级路由、7 个工具、token 统计都在。放在任意目录、任意 Python 3.9+ 环境都能直接跑。
+
 ## 架构
 
 ```
@@ -55,6 +69,7 @@ python -m unittest discover -s tests -v   # 20 项离线测试
 
 ```
 mcp-mini-agent/
+├── campus_agent.py         单文件版（1083 行，可单独拷走）
 ├── run.py                  入口
 ├── agent/
 │   ├── cli.py              命令行界面、演示脚本
@@ -110,6 +125,19 @@ mcp-mini-agent/
       "command": "python",
       "args": ["-m", "mcp_server.server"],
       "cwd": "<项目绝对路径>"
+    }
+  }
+}
+```
+
+若用单文件版，改成指向同一个文件即可：
+
+```json
+{
+  "mcpServers": {
+    "campus-mini-agent": {
+      "command": "python",
+      "args": ["<campus_agent.py 的绝对路径>", "--mcp-server"]
     }
   }
 }
